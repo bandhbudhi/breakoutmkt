@@ -1,19 +1,18 @@
 [app]
 
 # (str) Title of your application
-title = Kpritz
-
+title = Breakout & Trend
 # (str) Package name
-package.name = Kpritz
+package.name = trend
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = fr.tshirtman.kpritz
+package.domain = shikharsolutions.co.in
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,kv,atlas,txt,xlsx
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -29,10 +28,10 @@ version.regex = __version__ = '(.*)'
 version.filename = %(source.dir)s/main.py
 
 # (str) Application versioning (method 2)
-# version = 1.2.0
+# version = 1.0
 
 # (list) Application requirements
-requirements = kivy
+requirements = python3,kivy
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
@@ -41,7 +40,7 @@ requirements = kivy
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = all
+orientation = landscape
 
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 1
